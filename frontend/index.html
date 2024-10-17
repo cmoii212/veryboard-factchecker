@@ -1,0 +1,101 @@
+<!-- frontend/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Material Icons and Stylesheet -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>VeriBoard</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar Section -->
+        <aside>
+            <div class="toggle">
+                <div class="logo">
+                    <img src="img/logo.png" alt="Logo">
+                    <h2>Veri<span class="danger">Board</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">
+                        close
+                    </span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        dashboard
+                    </span>
+                    <h3>Dashboard</h3>
+                </a>
+                <!-- [Other sidebar items as per your original code] -->
+            </div>
+        </aside>
+        <!-- End of Sidebar Section -->
+
+        <!-- Main Content -->
+        <main>
+            <h1>Fact Checker</h1>
+            <!-- Analysis Section -->
+            <div class="analyse">
+                <!-- Input Section -->
+                <div class="input-section">
+                    <textarea id="inputText" placeholder="Enter text or URL to analyze"></textarea>
+                    <button id="analyzeButton">Analyze</button>
+                </div>
+            </div>
+
+            <!-- Results Section -->
+            <h1 class="results-header">Results</h1>
+            <div class="analyse results" id="results">
+                <!-- Dynamic content will be inserted here -->
+            </div>
+
+            <!-- Evidence Links Section -->
+            <h1 class="links-header">Evidence Links</h1>
+            <div class="analyse links" id="evidence-links">
+                <!-- Dynamic content will be inserted here -->
+            </div>
+        </main>
+        <!-- End of Main Content -->
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <div class="nav">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">
+                        menu
+                    </span>
+                </button>
+                <div class="dark-mode">
+                    <span class="material-icons-sharp active">
+                        light_mode
+                    </span>
+                    <span class="material-icons-sharp">
+                        dark_mode
+                    </span>
+                </div>
+
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey, <b>User</b></p>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="img/user.png" alt="User Photo">
+                    </div>
+                </div>
+            </div>
+            <!-- End of Nav -->
+        </div>
+        <!-- End of Right Section -->
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="app.js"></script>
+</body>
+</html>

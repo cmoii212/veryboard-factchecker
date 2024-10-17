@@ -1,0 +1,13 @@
+flask
+flask-cors
+transformers
+torch
+scikit-learn
+requests
+beautifulsoup4
+spacy
+google-api-python-client
+python-dotenv
+sentence-transformers
+SPARQLWrapper
+tldextract
