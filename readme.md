@@ -54,7 +54,7 @@ VeriBoard automates the fact-checking process by:
 VeriBoard/
 
 ├── backend/
-
+|
 │   ├── app.py
 
 │   ├── evaluate_app.py
