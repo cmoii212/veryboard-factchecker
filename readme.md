@@ -2,6 +2,10 @@
 
 VeriBoard is an automated fact-checking application that leverages advanced Natural Language Processing (NLP) models and techniques to verify factual claims. It identifies claims within text, gathers evidence from various sources, analyzes relationships using NLP models, and presents the verification results to the user.
 
+Site vitrine :
+
+https://sites.google.com/view/veriboard/accueil?authuser=0
+
 ---
 
 ## Table of Contents
@@ -48,34 +52,63 @@ VeriBoard automates the fact-checking process by:
 ## Project Structure
 
 VeriBoard/
+
 ├── backend/
+
 │   ├── app.py
+
 │   ├── evaluate_app.py
+
 │   ├── requirements.txt
+
 │   ├── models/
+
 │   │   ├── \_\_init\_\_.py
+
 │   │   ├── ensemble_claim_detection_model.py
+
 │   │   ├── advanced_claim_verification_model.py
+
 │   │   ├── multi_hop_reasoning_model.py
+
 │   │   └── question_answering_model.py
+
 │   ├── utils/
+
 │   │   ├── \_\_init\_\_.py
+
 │   │   ├── text_retrieval.py
+
 │   │   ├── text_preprocessing.py
+
 │   │   ├── evidence_retrieval.py
+
 │   │   ├── relevance_filtering.py
+
 │   │   ├── similarity.py
+
 │   │   └── knowledge_graph.py
+
 │   └── data/
+
 │       └── liar_dataset.tsv
+
 ├── frontend/
+
 │   ├── index.html
-│   ├── style.css
-│   ├── index.js
+
+│   ├── styles.css
+
+│   ├── app.js
+
 │   └── img/
+
 │       ├── logo.png
+
 │       └── user.png
+
 └── README.md
+
 
 ---
 
